@@ -1,5 +1,4 @@
 .ganttVerticalContainer {
-  overflow: hidden;
   font-size: 0;
   margin: 0;
   padding: 0;
@@ -8,6 +7,7 @@
 .horizontalContainer {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -17,4 +17,5 @@
   list-style: none;
   outline: none;
   position: relative;
+  overflow: auto;
 }
